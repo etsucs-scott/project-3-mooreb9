@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mooreb9\\source\\Repos\\Minesweeper.Core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38BD6D9F-D2A7-4B9E-A0E5-0B61CD7FDC5F}|Minesweeper.Cli\\Minesweeper.Cli.csproj|c:\\users\\mooreb9\\source\\repos\\minesweeper.core\\minesweeper.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38BD6D9F-D2A7-4B9E-A0E5-0B61CD7FDC5F}|Minesweeper.Cli\\Minesweeper.Cli.csproj|solutionrelative:minesweeper.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C3CA78-52A6-4C46-A9DF-1D844DE46369}|Minesweeper.Core\\Minesweeper.Core.csproj|c:\\users\\mooreb9\\source\\repos\\minesweeper.core\\minesweeper.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C3CA78-52A6-4C46-A9DF-1D844DE46369}|Minesweeper.Core\\Minesweeper.Core.csproj|solutionrelative:minesweeper.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mooreb9\\source\\Repos\\Minesweeper.Core\\Minesweeper.Cli\\Program.cs",
+              "RelativeDocumentMoniker": "Minesweeper.Cli\\Program.cs",
+              "ToolTip": "C:\\Users\\mooreb9\\source\\Repos\\Minesweeper.Core\\Minesweeper.Cli\\Program.cs",
+              "RelativeToolTip": "Minesweeper.Cli\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:51:27.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\mooreb9\\source\\Repos\\Minesweeper.Core\\Minesweeper.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "Minesweeper.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\mooreb9\\source\\Repos\\Minesweeper.Core\\Minesweeper.Core\\Class1.cs",
+              "RelativeToolTip": "Minesweeper.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T18:50:54.366Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
