@@ -6,16 +6,15 @@ class Program
     {
         while (true)
         {
-            Console.WriteLine("Minesweeper");
-            Console.WriteLine("1 - 8x8");
-            Console.WriteLine("2 - 12x12");
-            Console.WriteLine("3 - 16x16");
-            Console.WriteLine("q - quit");
+            Console.Clear();
+            Console.WriteLine("Menu:");
+            Console.WriteLine("1) 8x8");
+            Console.WriteLine("2) 12x12");
+            Console.WriteLine("3) 16x16");
+            Console.WriteLine("q) Quit");
 
-            var input = Console.ReadLine();
-
-            if (input == "q")
-                break;
+            var input = Console.ReadLine()?.Trim().ToLower();
+            if (input == "q") break;
 
             int size = input switch
             {
@@ -29,21 +28,23 @@ class Program
             {
                 8 => 10,
                 12 => 25,
-                16 => 40
+                16 => 40,
             };
 
-            Console.Write("Seed (blank for random): ");
+            Console.Write("Seed (blank = time): ");
             var seedInput = Console.ReadLine();
-
             int seed = string.IsNullOrWhiteSpace(seedInput)
                 ? SeedGenerator.Generate()
-                : int.Parse(seedInput);
+                : int.TryParse(seedInput, out int s) ? s : SeedGenerator.Generate();
 
-            Console.WriteLine($"Seed used: {seed}");
+            Console.WriteLine($"Seed used: {seed}\n");
+            Console.WriteLine("Commands: r row col | f row col | q\n");
 
             var game = new MinesweeperGame(size, mines, seed);
-
             PlayGame(game);
+
+            Console.WriteLine("Press Enter to return to menu...");
+            Console.ReadLine();
         }
     }
 
@@ -54,19 +55,40 @@ class Program
             DrawBoard(game);
 
             Console.Write("> ");
-            var cmd = Console.ReadLine().Split(' ');
+            var input = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(input)) continue;
 
-            if (cmd[0] == "q")
-                return;
+            var cmd = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            var action = cmd[0].ToLower();
 
-            int r = int.Parse(cmd[1]);
-            int c = int.Parse(cmd[2]);
+            if (action == "q") return;
 
-            if (cmd[0] == "r")
-                game.Reveal(r, c);
+            if (cmd.Length < 3
+                || !int.TryParse(cmd[1], out int r)
+                || !int.TryParse(cmd[2], out int c)
+                || !game.Board.InBounds(r, c))
+            {
+                Console.WriteLine("Invalid command or coordinates.");
+                continue;
+            }
 
-            if (cmd[0] == "f")
-                game.ToggleFlag(r, c);
+            switch (action)
+            {
+                case "r":
+                    if (game.Board.Tiles[r, c].IsFlagged)
+                        Console.WriteLine("Tile is flagged. Unflag first.");
+                    else
+                        game.Reveal(r, c);
+                    break;
+
+                case "f":
+                    game.ToggleFlag(r, c);
+                    break;
+
+                default:
+                    Console.WriteLine("Unknown command. Use r, f, or q.");
+                    break;
+            }
         }
 
         DrawBoard(game);
@@ -78,12 +100,19 @@ class Program
     {
         var board = game.Board;
 
+        // Draw column indices
+        Console.Write("   ");
+        for (int c = 0; c < board.Size; c++)
+            Console.Write($"{c,2}");
+        Console.WriteLine();
+
         for (int r = 0; r < board.Size; r++)
         {
+            Console.Write($"{r,2} "); // Row index
+
             for (int c = 0; c < board.Size; c++)
             {
                 var t = board.Tiles[r, c];
-
                 char ch = '#';
 
                 if (t.IsFlagged)
@@ -102,5 +131,7 @@ class Program
 
             Console.WriteLine();
         }
+
+        Console.WriteLine();
     }
 }

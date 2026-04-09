@@ -10,3 +10,15 @@ C:\Users\Ben\source\repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Deb
 C:\Users\Ben\source\repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\refint\Minesweeper.Core.dll
 C:\Users\Ben\source\repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\Minesweeper.Core.pdb
 C:\Users\Ben\source\repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\ref\Minesweeper.Core.dll
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\bin\Debug\net8.0\Minesweeper.Core.deps.json
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\bin\Debug\net8.0\Minesweeper.Core.dll
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\bin\Debug\net8.0\Minesweeper.Core.pdb
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\Minesweeper.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\Minesweeper.Core.AssemblyInfoInputs.cache
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\Minesweeper.Core.AssemblyInfo.cs
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\Minesweeper.Core.csproj.CoreCompileInputs.cache
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\Minesweeper.Core.sourcelink.json
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\Minesweeper.Core.dll
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\refint\Minesweeper.Core.dll
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\Minesweeper.Core.pdb
+C:\Users\Benjamin\Source\Repos\project-3-mooreb9\Minesweeper\Minesweeper.Core\obj\Debug\net8.0\ref\Minesweeper.Core.dll

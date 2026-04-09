@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ben\\source\\repos\\project-3-mooreb9\\Minesweeper\\Minesweeper.Core\\Minesweeper.Core.csproj": {}
+    "C:\\Users\\Benjamin\\Source\\Repos\\project-3-mooreb9\\Minesweeper\\Minesweeper.Core\\Minesweeper.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ben\\source\\repos\\project-3-mooreb9\\Minesweeper\\Minesweeper.Core\\Minesweeper.Core.csproj": {
+    "C:\\Users\\Benjamin\\Source\\Repos\\project-3-mooreb9\\Minesweeper\\Minesweeper.Core\\Minesweeper.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ben\\source\\repos\\project-3-mooreb9\\Minesweeper\\Minesweeper.Core\\Minesweeper.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Benjamin\\Source\\Repos\\project-3-mooreb9\\Minesweeper\\Minesweeper.Core\\Minesweeper.Core.csproj",
         "projectName": "Minesweeper.Core",
-        "projectPath": "C:\\Users\\Ben\\source\\repos\\project-3-mooreb9\\Minesweeper\\Minesweeper.Core\\Minesweeper.Core.csproj",
-        "packagesPath": "C:\\Users\\Ben\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ben\\source\\repos\\project-3-mooreb9\\Minesweeper\\Minesweeper.Core\\obj\\",
+        "projectPath": "C:\\Users\\Benjamin\\Source\\Repos\\project-3-mooreb9\\Minesweeper\\Minesweeper.Core\\Minesweeper.Core.csproj",
+        "packagesPath": "C:\\Users\\Benjamin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Benjamin\\Source\\Repos\\project-3-mooreb9\\Minesweeper\\Minesweeper.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ben\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Benjamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

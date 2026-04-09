@@ -25,6 +25,9 @@ public class MinesweeperGame
 
         if (!tile.IsRevealed)
             tile.IsFlagged = !tile.IsFlagged;
+
+        if (GameOver)
+            return;
     }
 
     public void Reveal(int r, int c)
@@ -45,6 +48,9 @@ public class MinesweeperGame
         RevealService.Reveal(Board, r, c);
 
         CheckWin();
+
+        if (GameOver)
+            return;
     }
 
     private void CheckWin()
